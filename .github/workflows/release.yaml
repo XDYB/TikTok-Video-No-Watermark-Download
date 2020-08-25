@@ -14,9 +14,9 @@ jobs:
     - run: composer install
     - run: npm install
     - run: npm run build --if-present
-    - uses: svenstaro/upload-release-action@v2
+    - uses: meeDamian/github-release@2.0
       with: 
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: build
-        asset_name: Build
+        token: ${{ secrets.GITHUB_TOKEN }}
+        files: build/
+        name: Release - Stable
         tag: ${{ github.ref }}
