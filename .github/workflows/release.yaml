@@ -19,4 +19,5 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         files: build/
         name: Release - Stable
+        allow_override: true
         tag: ${{ github.ref }}
