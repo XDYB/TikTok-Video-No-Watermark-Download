@@ -8,7 +8,7 @@ This script requires valid purchase code provided by `CodeCanyon` with purchase 
 
 # Installation
 This don't need complex setup, everything is kept simple as possible. No database calls are engaged to keep away the bloats.
-Assumign you have `composer` & `NodeJS & NPM` installed on your system
+Assumign you have `composer` & latest `NodeJS & NPM` installed on your system
 - `composer install` to install packages required.
 - `npm install` to install packages required for GulpJS tasks
 - `gulp build` to build for production if you changed anything or use what's provided on `build` folder.
@@ -16,11 +16,11 @@ Assumign you have `composer` & `NodeJS & NPM` installed on your system
 - head over to https://example.com/admin.php assuming https://example.com is your domain and the scirpt is installed on your root of your web document directory.
 - Follow on-screen instructions to setup some basic settings.
 
-# Forgotten passwork, migration or re-install
-- Remove `installed.php` file from `_config/installed.php` directory via FTP or your favorite Web File Manager.
+# Forgotten password, migration or re-install
+- Remove `installed.php` file from `_config` directory via FTP or your favorite Web File Manager.
 - Head over to `https://example.com/admin.php` then follow on-screen instructions to reset your password. 
 
 # Customization
-I used boostrap to do the UI, have few bootswatch.com thingy going, but you can always update the it to your need if you know the secret little magic of web. If you require, I can do a custom version, contact me via my profile.
+I used boostrap to do the UI, have few bootswatch.com thingy going, but you can always update it to your need if you know the secret little magic of HTML/CSS. Uncompiled `Javascript` and `CSS` are provided in `src/` directory that you can modify and be compiled using `GulpJS` or any online tools that you like. If you require, I can do a custom version, contact me via my profile.
 
 
