@@ -2,9 +2,12 @@
   "name": "tiktok-downloader-php",
   "version": "1.0.0",
   "description": "TikTok Downloader",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "gulp",
+    "start": "gulp live",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
   },
   "author": "WPPressPlugin",
   "license": "MIT",
