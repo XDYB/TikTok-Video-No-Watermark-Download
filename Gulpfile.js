@@ -196,5 +196,5 @@ gulp.task('build', gulp.series('live', function () {
 	return gulp.src(distFiles, {
 			allowEmpty: true,
 		})
-		.pipe(gulp.dest('build/tiktok-downloader'));
+		.pipe(gulp.dest('build/tiktok-downloader-php'));
 }));
