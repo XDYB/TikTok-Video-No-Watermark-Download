@@ -1,5 +1,5 @@
 <?php
-define("API_URL", 'https://tnw.ssovit.com/');
+define("API_URL", 'https://api.wppress.net/tiktok/');
 define("BASE_DIR", __DIR__ . '/');
 define("CONFIG_DIR", BASE_DIR . '_config/');
 define("INC_DIR", BASE_DIR . 'includes/');
