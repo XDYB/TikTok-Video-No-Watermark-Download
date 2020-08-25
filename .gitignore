@@ -1,0 +1,10 @@
+/node_modules
+/build
+/package-lock.json
+/zip
+/vendor
+/assets
+/languages
+/_config/*.php
+/composer.lock
+/cache
