@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85877e16ba365046204be84aebdbbf03",
+    "content-hash": "acedae59cd2040d102c05d48ee2ee9c5",
     "packages": [
         {
             "name": "phpfastcache/phpfastcache",
@@ -104,6 +104,10 @@
                 "zend memory cache",
                 "zend server"
             ],
+            "support": {
+                "issues": "https://github.com/PHPSocialNetwork/phpfastcache/issues",
+                "source": "https://github.com/PHPSocialNetwork/phpfastcache/tree/7.1.1"
+            },
             "funding": [
                 {
                     "url": "https://github.com/geolim4",
@@ -160,6 +164,9 @@
                 "psr",
                 "psr-6"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/cache/tree/master"
+            },
             "time": "2016-08-06T20:24:11+00:00"
         },
         {
@@ -208,7 +215,56 @@
                 "psr-16",
                 "simple-cache"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/simple-cache/tree/master"
+            },
             "time": "2017-10-23T01:57:42+00:00"
+        },
+        {
+            "name": "ssovit/tiktok-api",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ssovit/TikTok-API-PHP.git",
+                "reference": "061af4a2ce6251caf629c5d3c7953736c5c1bae9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ssovit/TikTok-API-PHP/zipball/061af4a2ce6251caf629c5d3c7953736c5c1bae9",
+                "reference": "061af4a2ce6251caf629c5d3c7953736c5c1bae9",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sovit\\": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sovit Tamrakar",
+                    "email": "sovit.tamrakar@gmail.com",
+                    "homepage": "https://github.com/ssovit/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Unofficial TikTok API for PHP",
+            "homepage": "https://github.com/ssovit/TikTok-API-PHP",
+            "keywords": [
+                "TikTok ",
+                "tiktok-api",
+                "tiktok-scraper"
+            ],
+            "support": {
+                "email": "sovit.tamrakar@gmail.com",
+                "issues": "https://github.com/ssovit/TikTok-API-PHP/issues",
+                "source": "https://github.com/ssovit/TikTok-API-PHP"
+            },
+            "time": "2020-10-27T07:56:15+00:00"
         }
     ],
     "packages-dev": [],
@@ -219,5 +275,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }

@@ -5,6 +5,7 @@ $config = include CONFIG_DIR . "config.php";
 header("Content-Type: application/json");
 header("Cache-Control: no-cache");
 header("Connection: close");
+error_reporting(E_ALL);
 if (isset($_GET['search']) && !empty($_GET['search'])) {
     $search = get_param('search');
     $type   = get_param('type');

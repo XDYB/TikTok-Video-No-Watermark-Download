@@ -3,7 +3,8 @@
     "description": "Download TikTok Videos & Music without watermark",
     "type": "project",
     "require": {
-        "phpfastcache/phpfastcache": "^7.1"
+        "phpfastcache/phpfastcache": "^7.1",
+        "ssovit/tiktok-api": "^1.1"
     },
     "license": "MIT",
     "authors": [
@@ -14,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "TikTok\\": "TikTok"
+            "TikTok\\": "includes/lib"
         }
     },
     "minimum-stability": "stable"

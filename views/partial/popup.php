@@ -1,7 +1,8 @@
 <div class="tiktok-popup-inner tiktok-popup-video-<%=video.id%>">
 	<div class="tiktok-video-wrap">
 		<div class="video-inner">
-			<video src="<%=video.video.playAddr%>" id="tiktok-video-el" width="<%=video.video.width%>" height="<%=video.video.height%>" playsinline loop preload="metadata" autoplay>
+			<video src="<?php echo site_url(); ?>stream.php?url=<%=
+encodeURIComponent(video.video.playAddr)%>" id="tiktok-video-el" width="<%=video.video.width%>" height="<%=video.video.height%>" playsinline loop preload="metadata" autoplay>
 			</video>
 			<div class="video-time"></div>
 			<div class="video-overlay"></div>

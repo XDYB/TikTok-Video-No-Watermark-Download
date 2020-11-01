@@ -1,19 +1,6 @@
 <?php
-use Phpfastcache\CacheManager;
-use Phpfastcache\Config\ConfigurationOption;
-
-error_reporting(0);
-CacheManager::setDefaultConfig(new ConfigurationOption([
-    "path"             => CACHE_DIR,
-    "itemDetailedDate" => false,
-]));
-$_cacheEngine = CacheManager::getInstance('files');
 $config       = [];
-function cacheEngine()
-{
-    global $_cacheEngine;
-    return $_cacheEngine;
-}
+
 if (file_exists(CONFIG_DIR . "config.php") && is_readable(CONFIG_DIR . "config.php")) {
     $config = include CONFIG_DIR . "config.php";
 }
